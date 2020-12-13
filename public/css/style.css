@@ -1,0 +1,143 @@
+html {
+  scroll-behavior: smooth;
+}
+.logo {
+  width: 60px;
+}
+.navbar-1 {
+  background-color: #3f72af !important;
+}
+.fa-user-circle {
+  font-size: 20px;
+}
+.nav-p .nav-link {
+  color: #fff !important;
+  font-size: 20px;
+}
+
+.nav-icon i {
+  margin-left: 1em;
+  font-size: 30px;
+}
+.navbar-brand {
+  font-size: 16px;
+}
+
+body, html {
+  height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+/* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/hero.jpg');
+
+/* Set a specific height */
+height: 75%;
+
+/* Position and center the image to scale nicely on all screens */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+text-align: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+}
+.row {
+  padding: 0;
+}
+.img2 {
+  width: 50px;
+}
+.img-services {
+  background-image: url('../img/img_3.png');
+  max-width: 100%;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.img-regi {
+  background-image: url('../img/img_3.png');
+  max-width: 100%;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.img-assistance {
+  background-image: url('../img/img_3.png');
+  max-width: 100%;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.services {
+  background-image: linear-gradient(120deg, #a0c4ff 0%, #c2e9fb 100%);
+  
+}
+#more {
+  display: none;
+}
+.col-md-3 {
+  background-image: linear-gradient(to top, #c9c9c9 0%, #f0f7ff 100%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.badge {
+  font-size: 1rem;
+}
+
+label.error {
+  color: #ff0000;
+}
+
+.error {
+  border-color: #ff0000;
+}
+
+.valid {
+  border: 2px solid #54ce36;
+}
+footer {
+  background-color: #3f72af;
+  color: #fff;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+footer i {
+  font-size: 28px;
+  margin: 10px;
+  color: #fff;
+}
+
+
+.container2 {
+min-height: 60%;
+  
+}
+.container3 {
+min-height: 75%;
+    
+  }
+.login {
+
+  background-image: linear-gradient(120deg, #a0c4ff 0%, #c2e9fb 100%);
+}
+
+.contact {
+
+  background-image: linear-gradient(120deg, #a0c4ff 0%, #c2e9fb 100%);
+}
+.shadow-lg {
+  box-shadow: -2px 2px 13px 3px rgba(0,0,0,0.37);
+}
